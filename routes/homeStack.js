@@ -1,15 +1,16 @@
 import { createStackNavigator } from "react-navigation-stack";
 import { createAppContainer } from "react-navigation";
 import HomePage from "../screens/homePage";
-import AddPhotoPage from "../screens/addPhotoPage";
-import * as React from "react";
+
+import MemberPage from "../component/memberPage";
 
 const screens = {
   HomePage: {
     screen: HomePage,
   },
-  AddPhotoPage: {
-    screen: AddPhotoPage,
+
+  MemberPage: {
+    screen: MemberPage,
   },
 };
 

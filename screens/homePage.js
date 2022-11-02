@@ -4,7 +4,7 @@ import * as React from "react";
 
 export default function HomePage({ navigation }) {
   const onPressHandler = () => {
-    navigation.navigate("AddPhotoPage");
+    navigation.navigate("MemberPage");
   };
 
   return (
