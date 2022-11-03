@@ -2,6 +2,7 @@ import { createStackNavigator } from "react-navigation-stack";
 import { createAppContainer } from "react-navigation";
 import HomePage from "../screens/homePage";
 
+import Camerapage from "../component/cameraPage";
 import MemberPage from "../component/memberPage";
 
 const screens = {
@@ -9,8 +10,11 @@ const screens = {
     screen: HomePage,
   },
 
-  MemberPage: {
+  MemberPagee: {
     screen: MemberPage,
+  },
+  Camerapage: {
+    screen: Camerapage,
   },
 };
 
